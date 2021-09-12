@@ -1,0 +1,60 @@
+.title{
+
+border-radius: 10px;
+margin-bottom: 10px;
+text-align:center;
+width: 210px;
+color:#ff4456;
+
+    border: solid #f13a4c 1px;
+    margin-top: 15%;
+}
+input[type="button"]
+{
+    border-radius: 5px;
+    background-color: #ff4456;
+    width: 100px;
+    height: 30px;
+    border: 2px solid #f13a4c;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    transition: .8s all ease;
+}
+input[type="button"]:hover
+{
+	    background-color: #fff;
+	    border-color: #ff4456;
+	    cursor: pointer;
+	    color: #ff4456
+
+}
+input[type="text"]
+{
+    border-radius: 5px;
+    text-align: right;
+    background-color: white;
+    width: 350px;
+    height: 20px;
+    border: 2px solid #ff4456;
+}
+
+.table{
+	    display: flex;
+    justify-content: center;
+    transform: translate(0%, 10%);
+
+}
+.table table
+{
+	width: 500px;
+	border: none;
+}
+.table table tr td
+{
+	    text-align: center;
+}
+
+html{
+	background: black;
+}
